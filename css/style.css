@@ -1,0 +1,142 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color: lightgray;
+}
+/* it's a class you use . when it's an ID you use # */
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto; /*moves it over to the middle*/
+    overflow: hidden;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    height:38px;
+    background: #e8491d;
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+    color: white;
+}
+/* Header */
+header{
+    background-color: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+/* The links */
+header a{
+    color:white;
+    text-decoration:none; /*removes the underline*/
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display:inline;
+    padding:0 20px 0 20px;
+}
+
+/* Have title of website - RWU Web Design - be to the left*/
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+/* Have menu bar put to the right*/
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight: bold;
+}
+
+/* Highlights the menu the user hovers over*/
+header a:hover{
+    color:#cccc;
+    font-weight: bold;
+}
+
+/* Showcase image */
+#showcase{
+    min-height: 400px;
+    background: url('../img/showcase.jpg') no-repeat 0 -400px;/*get image from outside folder*/
+    text-align:center;
+    color:white;
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+/* Newsletter */
+#newsletter{
+    padding:15px;
+    color:white;
+    background:#35424a;
+}
+
+#newsletter h1{
+    float:left;
+}
+
+#newsletter form{
+    float:right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+
+/* Boxes */
+#boxes{
+    margin-top:20px;
+}
+
+/* for individual boxes */
+#boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+/* Footer */
+footer{
+    padding:20px;
+    margin-top: 20px;
+    color:white;
+    background-color: #e8491d;
+    text-align: center;
+}
