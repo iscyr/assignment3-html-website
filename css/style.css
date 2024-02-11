@@ -5,6 +5,7 @@ body{
     background-color: lightgray;
 }
 /* it's a class you use . when it's an ID you use # */
+
 /*Global*/
 .container{
     width: 80%;
@@ -25,6 +26,14 @@ ul{
     padding-left:20px;
     padding-right:20px;
     color: white;
+}
+
+.dark{
+    padding:15px;
+    background:#35424a;
+    color:white;
+    margin-top:10px;
+    margin-bottom: 10px;
 }
 /* Header */
 header{
@@ -132,6 +141,27 @@ header a:hover{
     width: 90px;
 }
 
+/* Sidebar - About page*/
+aside#sidebar{
+    float: right;
+    width:30%;
+    margin-top: 10px;
+}
+
+/* Main-col - About page*/
+article#main-col{
+    float:left;
+    width:65%;
+}
+
+/* Services page*/
+ul#services li{
+    list-style: none;
+    padding:20px;
+    border:#cccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
 /* Footer */
 footer{
     padding:20px;
